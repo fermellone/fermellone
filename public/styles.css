@@ -117,52 +117,59 @@ h6 {
 /* PORTFOLIO */
 
 .projects-list {
-    background-color: var(--primario);
+    background-color: var(--secundario);
     width: 320px;
     margin-left: 20px;
     border-radius: 10px;
     padding: 10px 0px;
+    margin-top: 1rem;
 }
 
 .projects-list ul {
-    color: var(--blanco);
+    color: var(--primario);
 }
 
 .projects-list a {
-    color: var(--secundario);
+    color: var(--blanco);
     text-decoration: none;
 }
 
-.projects-section {
-    background-color: var(--terciario);
+#proyectos {
+    background-color: var(--primario);
+    padding-top: 1rem;
 }
 
 .projects-sectionTitle {
-    color: var(--primario);
+    color: var(--secundario);
     font-size: 3rem;
     font-weight: bold;
     margin-top: 0;
 }
 
 .project {
-    background-color: var(--primario);
+    background-color: var(--secundario);
     color: var(--secundario);
     margin: 20px;
     border-radius: 10px;
-    padding: 0px 20px;
+    padding: 2rem 20px;
 }
 
 .project-title {
     margin-bottom: 0;
     font-size: 2rem;
     font-weight: bold;
+    color: var(--primario);
 }
 
 .project-details,
-.project-date,
 .project-description {
     color: var(--blanco);
     margin: 0.2rem 0;
+}
+
+.project-date {
+    margin: 0.2rem 0;
+    color: var(--primario);
 }
 
 .project-link {
