@@ -1,0 +1,221 @@
+:root {
+    --blanco: #FCFCFC;
+    --primario: #1A3139;
+    --secundario: #FFBD59;
+    --terciario: #429D46;
+    --cuaternario: #CB6CE6;
+    --white-hover: rgb(212, 212, 212);
+}
+
+body {
+    color: var(--blanco);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+section {
+    padding: 0px 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.w500 {
+    width: 500px;
+}
+
+/* HEADER */
+
+
+.nav-bar {
+    background-color: var(--primario);
+    display: block;
+    /* padding-bottom: 1.3rem; */
+    text-align: center;
+    position: relative
+    /* position: sticky */
+}
+
+.nav-brand {
+    color: var(--blanco);
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.nav-brand img {
+    width: 8%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    border: 5px white solid;
+}
+
+.nav-brand:hover {
+    text-decoration: none;
+    color: var(--blanco)
+}
+
+.navbar-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+.nav-item {
+    margin: 0 1rem;
+    align-self: flex-end;
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-item:hover {
+    color: var(--white-hover)
+}
+
+
+/* HERO */
+
+.hero-text {
+    margin-top: 0;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: var(--blanco);
+    font-weight: 700;
+}
+
+#principal{
+    background-color: var(--primario);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    /* padding-top: 1.38rem; */
+}
+
+.hero-text strong {
+    color: var(--secundario);
+}
+
+
+.hero-img {
+    margin-top: 2rem;
+    border-radius: 100%;
+}
+
+/* PORTFOLIO */
+
+.projects-list {
+    background-color: var(--primario);
+    width: 320px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.projects-list ul {
+    color: var(--blanco);
+}
+
+.projects-list a {
+    color: var(--secundario);
+    text-decoration: none;
+}
+
+.projects-section {
+    background-color: var(--terciario);
+}
+
+.projects-sectionTitle {
+    color: var(--primario);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.project {
+    background-color: var(--primario);
+    color: var(--secundario);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.project-title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project-details,
+.project-date,
+.project-description {
+    color: var(--blanco);
+    margin: 0.2rem 0;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+
+/* EXPERIENCES */
+
+.experiences-section {
+    background-color: var(--terciario);
+}
+
+.experiences-sectionTitle {
+    color: var(--blanco);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.experience {
+    background-color: var(--primario);
+    color: var(--blanco);
+    margin: 20px;
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px 0;
+}
+
+.experience-imageWrapper {
+    margin: 0 25px;
+}
+
+.experience-image {
+    border-radius: 10px;
+}
+
+.experience-info {
+    padding: 0 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1A3139;
+    position: absolute;
+}
+
+footer ul li a {
+    color: white;
+    font-weight: 700;
+}
+footer ul li a:hover {
+    color: var(--white-hover);
+    text-decoration: none;
+}
+
