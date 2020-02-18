@@ -19,10 +19,10 @@
       </li>
     </ul>
 
-    <h3>CONTACTAME DIRÉCTAMENTE</h3>
-    <ul>
-      <li>Email: fernandomellone2@gmail.com</li>
-      <li>Celular: +595 973 830182</li>
+    <h3 class="text-center">CONTÁCTAME DIRÉCTAMENTE</h3>
+    <ul class="text-center datos-contacto">
+      <li class="dato-contacto">Email: fernandomellone2@gmail.com</li>
+      <li class="dato-contacto">Celular: +595 973 830182</li>
     </ul>
   </div>
 </template>

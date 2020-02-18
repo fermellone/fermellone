@@ -150,11 +150,15 @@ h6 {
 }
 
 .project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: var(--secundario);
     color: var(--secundario);
     margin: 20px;
     border-radius: 10px;
     padding: 2rem 20px;
+    padding-left: 4rem;
 }
 
 .project-title {
@@ -178,6 +182,10 @@ h6 {
 .project-link {
     text-decoration: none;
     color: var(--blanco);
+}
+
+.project-imageWrapper {
+    margin: auto;
 }
 
 
@@ -250,4 +258,8 @@ footer ul li a:hover {
 
 .red-social a {
     color: var(--blanco);
+}
+
+.datos-contacto {
+    list-style: none;
 }

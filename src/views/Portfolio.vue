@@ -20,7 +20,7 @@
                 </p>
             </div>
             <figure class="project-imageWrapper w500">
-                <img class="project-image w500" src="images/monitor_signos.png" alt="Foto del proyecto">
+                <img class="project-image w500" src="@/assets/images/monitor_signos.png" alt="Foto del proyecto">
             </figure>
         </article>
 
@@ -33,7 +33,7 @@
                 <p class="project-description">Página web en GitHub Pages, desarrollada para presentar el proyecto "LinkStart Hackerspace".</p>
             </div>
             <figure class="project-imageWrapper w500">
-                <img class="project-image w500" src="images/linkstart-page.jpeg" alt="Foto de la página">
+                <img class="project-image w500" src="@/assets/images/linkstart-page.jpeg" alt="Foto de la página">
             </figure>
         </article>
 
@@ -50,7 +50,7 @@
                 </p>
             </div>
             <figure class="project-imageWrapper w500">
-                <img class="project-image w500" src="images/hackathon.jpeg" alt="Foto del proyecto2">
+                <img class="project-image w500" src="@/assets/images/hackathon.jpeg" alt="Foto del proyecto2">
             </figure>
         </article>
         <br>
