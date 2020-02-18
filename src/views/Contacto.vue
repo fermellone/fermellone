@@ -1,12 +1,22 @@
 <template>
   <div class="container">
-    <h3>MIS REDES SOCIALES</h3>
-    <ul class="d-flex">
-      <li>LinkedIn</li>
-      <li>GitHub</li>
-      <li>Facebook</li>
-      <li>Twitter</li>
-      <li>Instagram</li>
+    <h2 class="text-center mt-4">MIS REDES SOCIALES</h2>
+    <ul class="d-flex justify-content-between redes-sociales">
+      <li class="red-social">
+        <a href="https://linkedin.com/fernando-mellone"><img src="@/assets/icons/linkedin-in-brands.svg" alt="Icono LinkedIn">LinkedIn</a>
+      </li>
+      <li class="red-social">
+        <a href="https://github.com/nandyme"><img src="@/assets/icons/github-brands.svg" alt="Icono GitHub"> GitHub</a>
+      </li>
+      <li class="red-social">
+        <a href="https://faceebok.com/fernando-mellone"><img src="@/assets/icons/facebook-brands.svg" alt="Icono Facebook"> Facebook</a>
+      </li>
+      <li class="red-social">
+        <a href="https://twitter.com/nandyme_"><img src="@/assets/icons/twitter-brands.svg" alt="Icono Twitter"> Twitter</a>
+      </li>
+      <li class="red-social">
+        <a href="https://instagram.com/nandymexd"><img src="@/assets/icons/instagram-brands.svg" alt="Icono Instagram"> Instagram</a>
+      </li>
     </ul>
 
     <h3>CONTACTAME DIRÉCTAMENTE</h3>
@@ -19,7 +29,7 @@
 
 <script>
 export default {
-
+  name: 'Contacto'
 }
 </script>
 

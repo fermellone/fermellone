@@ -224,8 +224,30 @@ footer ul li a {
     color: white;
     font-weight: 700;
 }
+
 footer ul li a:hover {
     color: var(--white-hover);
     text-decoration: none;
 }
 
+.redes-sociales {
+    margin: 2rem 5rem;
+    list-style: none;
+}
+
+.red-social a:hover {
+    text-decoration: none;
+    color: var(--white-hover);
+}
+
+.red-social {
+    font-weight: 600;
+}
+
+.red-social:hover {
+    filter: opacity(80%) hue-rotate(45deg);
+}
+
+.red-social a {
+    color: var(--blanco);
+}
