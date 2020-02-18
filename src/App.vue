@@ -12,9 +12,21 @@
         </nav>
     </header>
     <router-view/>
-
+    <go-top bg-color="#1A3139" ripple-bg="#FFBD59"></go-top>
   </div>
 </template>
+
+
+<script>
+  import GoTop from '@inotom/vue-go-top';
+
+  export default {
+    components: {
+      GoTop
+    }
+  }
+</script>
+
 
 <style>
 
