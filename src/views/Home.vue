@@ -20,5 +20,6 @@ export default {
     /* max-height: 80vh; */
     position: relative;
     margin: 0;
+    padding-bottom: 0.5rem;
   }
 </style>
