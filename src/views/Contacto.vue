@@ -3,19 +3,19 @@
     <h2 class="text-center mt-4">MIS REDES SOCIALES</h2>
     <ul class="d-flex justify-content-between redes-sociales">
       <li class="red-social">
-        <a href="https://linked.in/fernando-mellone"><img class="linkedin" src="@/assets/icons/linkedin-in-brands.svg" alt="Icono LinkedIn"></a>
+        <a href="https://linked.in/fernando-mellone" target="_blank"><img class="linkedin" src="@/assets/icons/linkedin-in-brands.svg" alt="Icono LinkedIn"></a>
       </li>
       <li class="red-social">
-        <a href="https://github.com/nandyme"><img class="github" src="@/assets/icons/github-brands.svg" alt="Icono GitHub"></a>
+        <a href="https://github.com/nandyme" target="_blank"><img class="github" src="@/assets/icons/github-brands.svg" alt="Icono GitHub"></a>
       </li>
       <li class="red-social">
-        <a href="https://facebook.com/nandyme"><img src="@/assets/icons/facebook-brands.svg" alt="Icono Facebook"></a>
+        <a href="https://facebook.com/nandyme" target="_blank"><img src="@/assets/icons/facebook-brands.svg" alt="Icono Facebook"></a>
       </li>
       <li class="red-social">
-        <a href="https://twitter.com/nandyme_"><img src="@/assets/icons/twitter-brands.svg" alt="Icono Twitter"></a>
+        <a href="https://twitter.com/nandyme_" target="_blank"><img src="@/assets/icons/twitter-brands.svg" alt="Icono Twitter"></a>
       </li>
       <li class="red-social">
-        <a href="https://instagram.com/nandymexd"><img src="@/assets/icons/instagram-brands.svg" alt="Icono Instagram"></a>
+        <a href="https://instagram.com/nandymexd" target="_blank"><img src="@/assets/icons/instagram-brands.svg" alt="Icono Instagram"></a>
       </li>
     </ul>
 

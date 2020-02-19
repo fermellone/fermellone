@@ -20,7 +20,7 @@
                 </p>
             </div>
             <figure class="project-imageWrapper w500">
-                <img class="project-image w500" src="@/assets/images/monitor_signos.png" alt="Foto del proyecto">
+                <img class="project-image w500" src="@/assets/images/monitor_signos.jpg" alt="Foto del proyecto">
             </figure>
         </article>
 
