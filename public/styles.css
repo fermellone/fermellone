@@ -55,7 +55,7 @@ h6 {
     margin-bottom: 1rem;
     border-radius: 50%;
     border: 5px white solid;
-    margin-left: -1.9rem;
+    margin-left: -1.7rem;
 }
 
 .nav-brand:hover {
@@ -238,17 +238,18 @@ footer ul li a:hover {
     text-decoration: none;
 }
 
-.redes-sociales {
-    margin: 2rem 5rem;
-    list-style: none;
+.datos-contacto {
+    padding-left: 0;
 }
-
-.red-social a:hover {
-    text-decoration: none;
-    color: var(--white-hover);
+.redes-sociales {
+    margin: 2rem 5rem 5rem 5rem;
+    list-style: none;
+    padding-left: 0;
 }
 
 .red-social {
+    height: 80px;
+    width: 80px;
     font-weight: 600;
 }
 
