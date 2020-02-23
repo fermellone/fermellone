@@ -36,7 +36,7 @@
                 <h4 class="project-details">Desarrollo de la página<br>HTML / Bootstrap / CSS / JavaScript</h4>
                 <p class="project-date"><small><b>dic-2019</b></small></p>
                 <a class="project-link" href="https://nandyme.github.io/linkstart" target="_blank"><small><b>Link del proyecto</b></small></a>
-                <p v-on:click="dos = !dos" class="description-toggler">{{dos ? 'Mostrar info' : 'Ocultar info'}}</p>
+                <p v-on:click="dos = !dos" class="description-toggler"><small><b>{{dos ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
                 <p class="project-description" v-show="dos">Página web en GitHub Pages, desarrollada para presentar el proyecto "LinkStart Hackerspace".</p>
             </div>
             <figure class="project-imageWrapper">
@@ -50,7 +50,7 @@
                 <h4 class="project-details">Project Manager - Mentor</h4>
                 <p class="project-date"><small><b>dic/ene-2019</b></small></p>
                 <br>
-                <p v-on:click="tres = !tres" class="description-toggler">{{tres ? 'Mostrar info' : 'Ocultar info'}}</p>
+                <p v-on:click="tres = !tres" class="description-toggler"><small><b>{{tres ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
                 <p v-show="tres" class="project-description">
                     Hackathon que forma parte del Plan Piloto del Proyecto "LinkStart Hackerspace" en los que desarrollamos varios proyectos reales en equipos de 6 personas usando metodología SCRUM. <br>
                     <br>
@@ -69,7 +69,7 @@
                 <p class="project-date"><small><b>feb-2020</b></small></p>
                 <a class="project-link" href="http://expresatech.herokuapp.com/home/" target="_blank"><small><b>Link del proyecto</b></small></a>
                 <br>
-                <p v-on:click="cuatro = !cuatro" class="description-toggler">{{cuatro ? 'Mostrar info' : 'Ocultar info'}}</p>
+                <p v-on:click="cuatro = !cuatro" class="description-toggler"><small><b>{{cuatro ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
                 <p class="project-description" v-show="cuatro">
                     Creamos un producto mínimo viable. En tres días. Una plataforma web con un juego y perfil de usuario.<br>
                     <br>
