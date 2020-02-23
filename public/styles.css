@@ -32,6 +32,13 @@ h6 {
 
 /* HEADER */
 
+.home {
+    /* max-height: 80vh; */
+    position: relative;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
 
 .nav-bar {
     background-color: var(--primario);
@@ -54,7 +61,7 @@ h6 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 50%;
-    border: 5px white solid;
+    border: 0.4rem white solid;
     margin-left: -1.7rem;
 }
 
@@ -102,6 +109,7 @@ h6 {
 #principal{
     background-color: var(--primario);
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap-reverse;
     margin: 0 auto;
     /* padding-top: 1.38rem; */
@@ -113,6 +121,7 @@ h6 {
 
 
 .hero-img {
+    width: 400px;
     margin-top: 2rem;
     border-radius: 100%;
 }
@@ -158,7 +167,6 @@ h6 {
     margin: 20px;
     border-radius: 10px;
     padding: 2rem 20px;
-    padding-left: 4rem;
 }
 
 .project-title {
@@ -186,6 +194,16 @@ h6 {
 
 .project-imageWrapper {
     margin: auto;
+    width: 500px;
+}
+
+.project-imageWrapper img {
+    width: inherit;
+    border-radius: 5%;
+}
+.description-toggler {
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -264,3 +282,78 @@ footer ul li a:hover {
 .datos-contacto {
     list-style: none;
 }
+
+.projects-list h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #1A3139;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+.general-enter-active, .general-leave-active {
+    transition: height 0.5s;
+}
+.general-enter, .general-leave-to {
+    height: 31px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) and (min-width: 120px) {
+    .navbar-items {
+        margin: auto;
+        margin-left: 1.2rem;
+        padding-bottom: 0;
+    }
+
+    .nav-brand img {
+        width: 20%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 50%;
+        border: 0.2rem white solid;
+    }
+    .hero-img {
+        text-align: center;
+        width: 230px;
+        height: 230px;
+        margin: 1rem auto;
+    }
+    .hero-text {
+        font-size: 1rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    /* Portfolio */
+
+    .projects-list {
+        margin: 20px;
+        width: auto;
+    }
+    .projects-list ul {
+        margin-right: 20px;
+        padding-right: 13px;
+    }
+    .project-imageWrapper {
+        margin: auto;
+        width: 250px;
+    }    
+    .project-imageWrapper img {
+        width: inherit;
+        border-radius: 5%;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+    }
+    .project-details {
+        font-size: .8rem;
+    }
+  }
