@@ -260,6 +260,9 @@ footer ul li a:hover {
     padding-left: 0;
 }
 .redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 2rem 5rem 5rem 5rem;
     list-style: none;
     padding-left: 0;
@@ -355,5 +358,12 @@ footer ul li a:hover {
     }
     .project-details {
         font-size: .8rem;
+    }
+    .redes-sociales {
+        margin: 2rem 0rem 1rem 0rem;
+    }
+    .red-social{
+        height: 70px;
+        width: 50px;
     }
   }

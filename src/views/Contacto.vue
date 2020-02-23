@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2 class="text-center mt-4">MIS REDES SOCIALES</h2>
-    <ul class="d-flex justify-content-arround redes-sociales">
+    <ul class="redes-sociales">
       <li class="red-social">
         <a href="https://linked.in/fernando-mellone" target="_blank"><img class="linkedin" src="@/assets/icons/linkedin-in-brands.svg" alt="Icono LinkedIn"></a>
       </li>
