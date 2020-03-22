@@ -128,7 +128,7 @@ export default {
     }
 
     .my-projects-button:hover,
-    .project-description:hover {
+    .description-toggler:hover {
         cursor: pointer;
     }
 </style>
