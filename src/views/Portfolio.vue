@@ -2,7 +2,7 @@
     <section id="proyectos" class="projects-section">
         <transition>
             <div v-on:click="selector = !selector" class="projects-list">
-                <h3>Mis proyectos</h3>
+                <h3 class="my-projects-button">Mis proyectos</h3>
                 <transition name="fade">
                     <ul v-show="selector">
                         <li><a href="#igloo">Lector de signos vitales - Igloo</a></li>
@@ -125,5 +125,10 @@ export default {
 <style>
     .stack {
         color: white;
+    }
+
+    .my-projects-button:hover,
+    .project-details:hover {
+        cursor: pointer;
     }
 </style>
