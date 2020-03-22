@@ -51,12 +51,12 @@
             <div class="w500">
                 <h3 class="project-title">LinkStart - Bootcamp/Hackathon</h3>
                 <h4 class="project-details">Project Manager - Mentor</h4>
-                <p class="stack"><b>Contenido:</b> HTML & CSS / Git & GitHub / Node.js / Metodologías Agile - SCRUM / Vue.js <p>
+                <p class="stack"><b>Contenido:</b> HTML & CSS / Git & GitHub / Node.js / Metodologías Agile - SCRUM / Vue.js
                 <p class="project-date"><small><b>dic/ene-2019</b></small></p>
                 <br>
                 <p v-on:click="tres = !tres" class="description-toggler"><small><b>{{tres ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
                 <p v-show="tres" class="project-description">
-                    Hackathon que forma parte del Plan Piloto del Proyecto "LinkStart Hackerspace" en los que desarrollamos varios proyectos reales en equipos de 6 personas usando metodología SCRUM. <br>
+                    Hackathon que forma parte del Plan Piloto del Proyecto "LinkStart Hackerspace" en los que desarrollamos varios proyectos reales en equipos de 6 personas usando metodología SCRUM.
                     <br>
                 </p>
             </div>
@@ -75,7 +75,7 @@
                 <br>
                 <p v-on:click="cuatro = !cuatro" class="description-toggler"><small><b>{{cuatro ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
                 <p class="project-description" v-show="cuatro">
-                    Creamos un producto mínimo viable. En tres días. Una plataforma web con un juego y perfil de usuario.<br>
+                    Creamos un producto mínimo viable. En tres días. Una plataforma web con un juego y perfil de usuario.
                     <br>
                 </p>
             </div>
@@ -93,7 +93,7 @@
                 <br>
                 <p v-on:click="cinco = !cinco" class="description-toggler"><small><b>{{cinco ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
                 <p class="project-description" v-show="cinco">
-                    Creé una web app que se conectaba a la base de datos del cliente para mostrar la información ahí almacenada, ordenada de la manera solicitada.<br>
+                    Creé una web app que se conectaba a la base de datos del cliente para mostrar la información ahí almacenada, ordenada de la manera solicitada.
                     <br>
                 </p>
             </div>
