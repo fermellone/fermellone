@@ -1,4 +1,2 @@
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# redirect la wea - from / to
+/*  /index.html
