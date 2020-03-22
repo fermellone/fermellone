@@ -18,7 +18,7 @@
             <div class="w500">
                 <h3 class="project-title">Lector de signos vitales - Igloo</h3>
                 <h4 class="project-details">Backend Developer</h4>
-                <p class="stack"><b>Contenido:</b>  Python / SQLite3 / Flutter</p>
+                <p class="stack"><b>Contenido:</b>  Python / SQLite3 / Flask</p>
                 <p class="project-date"><b><small>feb-2019</small></b></p>
                 <a class="project-link" href="https://github.com/nandyme/igloo" target="_blank"><small><b>Link del proyecto</b></small></a>
                 <p v-on:click="uno = !uno" class="description-toggler"><small><b>{{uno ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>

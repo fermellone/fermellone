@@ -15,11 +15,13 @@ const routes = [
   {
     path: '/portfolio',
     name: 'Portfolio',
+    base: 'nandyme.space/',
     component: Portfolio
   },
   {
     path: '/contacto',
     name: 'Contacto',
+    base: 'nandyme.space/',
     component: Contacto
   }
 ]
