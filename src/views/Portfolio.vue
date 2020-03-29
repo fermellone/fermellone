@@ -36,9 +36,9 @@
             <div class="w500 d-">
                 <h3 class="project-title">LinkStart - Web Page</h3>
                 <h4 class="project-details">FullStack Developer</h4>
-                <p class="stack"><b>Contenido:</b> HTML / Bootstrap / CSS / JavaScript</p>
+                <p class="stack"><b>Contenido:</b> HTML / Bootstrap / CSS / JavaScript / Netlify </p>
                 <p class="project-date"><small><b>dic-2019</b></small></p>
-                <a class="project-link" href="https://nandyme.github.io/linkstart" target="_blank"><small><b>Link del proyecto</b></small></a>
+                <a class="project-link" href="https://linkstart.netlify.com" target="_blank"><small><b>Link del proyecto</b></small></a>
                 <p v-on:click="dos = !dos" class="description-toggler"><small><b>{{dos ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
                 <p class="project-description" v-show="dos">Página web en GitHub Pages, desarrollada para presentar el proyecto "LinkStart Hackerspace".</p>
             </div>
@@ -99,6 +99,21 @@
                 <img class="project-image image-fluid" src="@/assets/images/imagen-tesis.png" alt="Foto de la web app">
             </figure>
         </article>
+
+        <article id="LS-webPage" class="project d-flex">
+            <div class="w500">
+                <h3 class="project-title">San Ignacio Entretenimientos - Web Page</h3>
+                <h4 class="project-details">FullStack Developer</h4>
+                <p class="stack"><b>Stack:</b> HTML & CSS / Bootstrap / Vue.js</p>
+                <p class="project-date"><small><b>marzo-2019</b></small></p>
+                <a class="project-link" href="https://sanignacioetretenimientos.com" target="_blank"><small><b>Link del proyecto</b></small></a>
+                <p v-on:click="seis = !seis" class="description-toggler"><small><b>{{seis ? 'Ocultar info' : 'Mostrar info'}}</b></small></p>
+                <p class="project-description" v-show="seis">Página web para un proveedor de servicio de internet <br/>de San Ignacio, Misiones.</p>
+            </div>
+            <figure class="project-imageWrapper">
+                <img class="project-image-fluid" src="@/assets/images/sanigent_web.png" alt="Foto de la página">
+            </figure>
+        </article>
         <br>
     </section>
 </template>
@@ -114,7 +129,8 @@ export default {
                 tres: false,
                 cuatro: false,
                 cinco: false,
-                selector: false
+                seis: false,
+                selector: false,
         }
     }
 }
