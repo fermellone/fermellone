@@ -5,18 +5,19 @@
                 <h3 class="my-projects-button">Mis proyectos</h3>
                 <transition name="fade">
                     <ul v-show="selector">
-                        <li><a href="#igloo">Lector de signos vitales - Igloo</a></li>
+                        <li><a href="#igloo">Igloo - Lector de signos vitales</a></li>
                         <li><a href="#LS-webPage">LinkStart - Web Page</a></li>
                         <li><a href="#LS-bootcamp">LinkStart - Bootcamp/Hackathon</a></li>
                         <li><a href="#LS-Koga">Koga - Hackathon</a></li>
-                        <li><a href="#app-tesis">Web App - Control vehicular</a></li>
+                        <li><a href="#app-tesis">Control vehicular - Web App</a></li>
+                        <li><a href="#SanIgnacioEntretenimientos">San Ignacio Entretenimientos - Web Page</a></li>
                     </ul>
                 </transition>
             </div>
         </transition>
         <article class="project" id="igloo">
             <div class="w500">
-                <h3 class="project-title">Lector de signos vitales - Igloo</h3>
+                <h3 class="project-title">Igloo - Lector de signos vitales</h3>
                 <h4 class="project-details">Backend Developer</h4>
                 <p class="stack"><b>Contenido:</b>  Python / SQLite3 / Flask</p>
                 <p class="project-date"><b><small>feb-2019</small></b></p>
@@ -85,7 +86,7 @@
 
         <article id="app-tesis" class="project d-flex">
             <div class="w500">
-                <h3 class="project-title">Web App - Control Vehicular</h3>
+                <h3 class="project-title">Control Vehicular - Web App</h3>
                 <h4 class="project-details">Full Stack Developer</h4>
                 <p class="stack"><b>Stack:</b> Pug & CSS / Bootstrap / Git & GitHub / Node.js</p>
                 <p class="project-date"><small><b>febrero-2020</b></small></p>
@@ -100,7 +101,7 @@
             </figure>
         </article>
 
-        <article id="LS-webPage" class="project d-flex">
+        <article id="SanIgnacioEntretenimientos" class="project d-flex">
             <div class="w500">
                 <h3 class="project-title">San Ignacio Entretenimientos - Web Page</h3>
                 <h4 class="project-details">FullStack Developer</h4>
