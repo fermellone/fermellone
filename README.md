@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fermellone&langs_count=6&layout=compact" width="400" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=fermellone&langs_count=6&layout=compact" width="400" />
   </a>
 </p>
 
