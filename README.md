@@ -21,10 +21,10 @@
   </a>
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-log.fermellone.co/api/wakatime?username=femellone" width="400" />
   </a>
-</p> -->
+</p>
 
 **xd**<link href="style.css" rel="stylesheet"></link>
