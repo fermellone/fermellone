@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-log.fermellone.co/api/wakatime?username=femellone" width="400" />
+    <img src="https://github-log.fermellone.co/api/wakatime?username=fermellone" width="400" />
   </a>
 </p>
 
