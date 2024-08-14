@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="https://stackoverflow.com/users/11213030/fernando-mellone">
+<!--   <a href="https://stackoverflow.com/users/11213030/fernando-mellone">
     <img src="https://github-readme-stats.vercel.app/api?username=fermellone&theme=react&show_icons=true&custom_title=Fernando%27s+GitHub+stats&layout=compact" width="394" />
-  </a>
+  </a> -->
 <!--  languages by percentage  -->
   <img style="margin-left:10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fermellone&theme=react&line_height=40&hide=css&size_weight=0.5&count_weight=0.5&layout=compact"/>
 </p>
