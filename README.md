@@ -1,3 +1,8 @@
+## Some projects
+- [Spotify playlist manager](spotify.fermellone.dev)
+- [Longmemo](longmemo.fermellone.dev) - Alt long-term memory
+- [YC Job finder](yc-jobs.fermellone.dev)
+
 <p align="center">
 <!--   <a href="https://stackoverflow.com/users/11213030/fernando-mellone">
     <img src="https://github-readme-stats.vercel.app/api?username=fermellone&theme=react&show_icons=true&custom_title=Fernando%27s+GitHub+stats&layout=compact" width="394" />
